@@ -64,4 +64,8 @@ public class BaseException extends RuntimeException implements Serializable {
     public IResponseEnum getResponseEnum() {
         return responseEnum;
     }
+
+    public Object[] getArgs() {
+        return args;
+    }
 }
