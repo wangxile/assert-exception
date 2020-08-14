@@ -10,5 +10,6 @@ public class Test {
     public static void main(String[] args) {
         String a = null;
         ResponseEnum.BAD_LICENCE_TYPE.assertNotNull(a);
+        ResponseEnum.LICENCE_NOT_FOUND.assertNotNull(a, "111");
     }
 }
